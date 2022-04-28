@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown&nbsp;example — Minimal blog</title>
+    <meta name="description" content="Title: Markdown&nbsp;example; Date: 2022-04-28; Author: Lemony Snicket
+">
+
+    <!-- CSS for syntax highlighting of code snippets -->
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="/theme/gruvbox-light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="/theme/gruvbox-dark.css">
+
+    <!-- main CSS file -->
+    <link rel="stylesheet" href="/theme/main.css">
+    <!-- katex for rendering latex -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"
+        integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB"
+        crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+        integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
+        integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+        crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+
+<body>
+    <header>
+        <strong>Minimal blog</strong>
+        <nav style="display: inline">
+                <a href="/index.html">Home</a>
+                <a href="/categories.html">Categories</a>
+                    <a href="/pages/about-me.html">About&nbsp;me</a>
+        </nav>
+    </header>
+    <main>
+<article>
+    <h1>Markdown&nbsp;example</h1>
+    <header>
+        <span>Lemony Snicket</span>,
+        <time datetime="2022-04-28T17:13:00+02:00">Thu 28 April 2022</time>
+
+	<aside>
+    	    Category:
+    	    <span>
+    	        <a href="/category/uncategorized.html" rel="category">Uncategorized</a>
+    	    </span>
+
+ 
+    	    Tags:
+    	    <span>
+    	        <a href="/tag/markdown.html" rel="tag">markdown</a>
+    	    </span>
+    	    <span>
+    	        <a href="/tag/test.html" rel="tag">test</a>
+    	    </span>
+    	</aside>
+    </header>
+
+    <p>Paragraphs are separated by a blank&nbsp;line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look&nbsp;like:</p>
+<ul>
+<li>this&nbsp;one</li>
+<li>that&nbsp;one</li>
+<li>the other&nbsp;one</li>
+</ul>
+<p>Note that &#8212; not considering the asterisk &#8212; the actual text
+content starts at 4-columns&nbsp;in.</p>
+<blockquote>
+<p>Block quotes are
+written like&nbsp;so.</p>
+<p>They can span multiple paragraphs,
+if you&nbsp;like.</p>
+</blockquote>
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &#8220;it&#8217;s all
+in chapters 12&#8211;14&#8221;). Three dots &#8230; will be converted to an ellipsis.
+Unicode is supported.&nbsp;☺</p>
+<h2>An h2&nbsp;header</h2>
+<p>Here&#8217;s a numbered&nbsp;list:</p>
+<ol>
+<li>first&nbsp;item</li>
+<li>second&nbsp;item</li>
+<li>third&nbsp;item</li>
+</ol>
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&#8217;s a code&nbsp;sample:</p>
+<div class="highlight"><pre><span></span><code># <span class="nv">Let</span> <span class="nv">me</span> <span class="nv">re</span><span class="o">-</span><span class="nv">iterate</span> ...
+<span class="k">for</span> <span class="nv">i</span> <span class="nv">in</span> <span class="mi">1</span> .. <span class="mi">10</span> { <span class="k">do</span><span class="o">-</span><span class="nv">something</span><span class="ss">(</span><span class="nv">i</span><span class="ss">)</span> }
+</code></pre></div>
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you&nbsp;like:</p>
+<div class="highlight"><pre><span></span><code>define foobar() {
+    print &quot;Welcome to flavor country!&quot;;
+}
+</code></pre></div>
+
+<p>(which makes copying <span class="amp">&amp;</span> pasting easier). You can optionally mark the
+delimited block for syntax&nbsp;highlighting:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
+<span class="c1"># Quick, count to ten!</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="c1"># (but not *too* quick)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+
+<h3>An h3&nbsp;header</h3>
+<p>Now a nested&nbsp;list:</p>
+<ol>
+<li>
+<p>First, get these&nbsp;ingredients:</p>
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul>
+</li>
+<li>
+<p>Boil some&nbsp;water.</p>
+</li>
+<li>
+<p>Dump everything in the pot and follow
+    this&nbsp;algorithm:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">find</span> <span class="nv">wooden</span> <span class="nv">spoon</span>
+<span class="nv">uncover</span> <span class="nv">pot</span>
+<span class="nv">stir</span>
+<span class="nv">cover</span> <span class="nv">pot</span>
+<span class="nv">balance</span> <span class="nv">wooden</span> <span class="nv">spoon</span> <span class="nv">precariously</span> <span class="nv">on</span> <span class="nv">pot</span> <span class="nv">handle</span>
+<span class="k">wait</span> <span class="mi">10</span> <span class="nv">minutes</span>
+<span class="k">goto</span> <span class="nl">first</span> <span class="nv">step</span> <span class="ss">(</span><span class="nv">or</span> <span class="nv">shut</span> <span class="nv">off</span> <span class="nv">burner</span> <span class="nv">when</span> <span class="nv">done</span><span class="ss">)</span>
+</code></pre></div>
+
+<p>Do not bump wooden spoon or it will&nbsp;fall.</p>
+</li>
+</ol>
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3&nbsp;above).</p>
+<p>Here&#8217;s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here&#8217;s a footnote <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+<p>A horizontal rule&nbsp;follows.</p>
+<hr>
+<p>And images can be specified like&nbsp;so:</p>
+<p><img alt="duck image" src="https://i.redd.it/ly76bvst0fq81.jpg"></p>
+<p>Inline math equation: \(\omega = d\phi / dt\). Display
+math should get its own line like&nbsp;so:</p>
+<p>$$I = \int \rho R^{2}&nbsp;dV$$</p>
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*,&nbsp;etc.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Some footnote text.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+</article>
+    </main>
+</body>
+
+</html>

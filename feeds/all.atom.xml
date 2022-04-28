@@ -9,11 +9,18 @@ look&amp;nbsp;like:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Note that &amp;#8212; not considering the asterisk &amp;#8212; the actual text
 content starts at 4-columns&amp;nbsp;in.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Block quotes are
-written like&amp;nbsp;so.&lt;/p&gt;
-&lt;p&gt;They can span multiple paragraphs,
-if …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Paragraphs are separated by a blank&amp;nbsp;line.&lt;/p&gt;
+&lt;p&gt;Now a nested&amp;nbsp;list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, get these&amp;nbsp;ingredients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;carrots&lt;/li&gt;
+&lt;li&gt;celery&lt;/li&gt;
+&lt;li&gt;lentils&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Boil …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Paragraphs are separated by a blank&amp;nbsp;line.&lt;/p&gt;
 &lt;p&gt;2nd paragraph. &lt;em&gt;Italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, and &lt;code&gt;monospace&lt;/code&gt;. Itemized lists
 look&amp;nbsp;like:&lt;/p&gt;
 &lt;ul&gt;
@@ -23,6 +30,36 @@ look&amp;nbsp;like:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Note that &amp;#8212; not considering the asterisk &amp;#8212; the actual text
 content starts at 4-columns&amp;nbsp;in.&lt;/p&gt;
+&lt;p&gt;Now a nested&amp;nbsp;list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, get these&amp;nbsp;ingredients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;carrots&lt;/li&gt;
+&lt;li&gt;celery&lt;/li&gt;
+&lt;li&gt;lentils&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Boil some&amp;nbsp;water.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dump everything in the pot and follow
+    this&amp;nbsp;algorithm:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;find&lt;/span&gt; &lt;span class="nv"&gt;wooden&lt;/span&gt; &lt;span class="nv"&gt;spoon&lt;/span&gt;
+&lt;span class="nv"&gt;uncover&lt;/span&gt; &lt;span class="nv"&gt;pot&lt;/span&gt;
+&lt;span class="nv"&gt;stir&lt;/span&gt;
+&lt;span class="nv"&gt;cover&lt;/span&gt; &lt;span class="nv"&gt;pot&lt;/span&gt;
+&lt;span class="nv"&gt;balance&lt;/span&gt; &lt;span class="nv"&gt;wooden&lt;/span&gt; &lt;span class="nv"&gt;spoon&lt;/span&gt; &lt;span class="nv"&gt;precariously&lt;/span&gt; &lt;span class="nv"&gt;on&lt;/span&gt; &lt;span class="nv"&gt;pot&lt;/span&gt; &lt;span class="nv"&gt;handle&lt;/span&gt;
+&lt;span class="k"&gt;wait&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="nv"&gt;minutes&lt;/span&gt;
+&lt;span class="k"&gt;goto&lt;/span&gt; &lt;span class="nl"&gt;first&lt;/span&gt; &lt;span class="nv"&gt;step&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;or&lt;/span&gt; &lt;span class="nv"&gt;shut&lt;/span&gt; &lt;span class="nv"&gt;off&lt;/span&gt; &lt;span class="nv"&gt;burner&lt;/span&gt; &lt;span class="nv"&gt;when&lt;/span&gt; &lt;span class="nv"&gt;done&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Do not bump wooden spoon or it will&amp;nbsp;fall.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3&amp;nbsp;above).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Block quotes are
 written like&amp;nbsp;so.&lt;/p&gt;
@@ -63,36 +100,6 @@ delimited block for syntax&amp;nbsp;highlighting:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;An h3&amp;nbsp;header&lt;/h3&gt;
-&lt;p&gt;Now a nested&amp;nbsp;list:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;First, get these&amp;nbsp;ingredients:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;carrots&lt;/li&gt;
-&lt;li&gt;celery&lt;/li&gt;
-&lt;li&gt;lentils&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Boil some&amp;nbsp;water.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dump everything in the pot and follow
-    this&amp;nbsp;algorithm:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;find&lt;/span&gt; &lt;span class="nv"&gt;wooden&lt;/span&gt; &lt;span class="nv"&gt;spoon&lt;/span&gt;
-&lt;span class="nv"&gt;uncover&lt;/span&gt; &lt;span class="nv"&gt;pot&lt;/span&gt;
-&lt;span class="nv"&gt;stir&lt;/span&gt;
-&lt;span class="nv"&gt;cover&lt;/span&gt; &lt;span class="nv"&gt;pot&lt;/span&gt;
-&lt;span class="nv"&gt;balance&lt;/span&gt; &lt;span class="nv"&gt;wooden&lt;/span&gt; &lt;span class="nv"&gt;spoon&lt;/span&gt; &lt;span class="nv"&gt;precariously&lt;/span&gt; &lt;span class="nv"&gt;on&lt;/span&gt; &lt;span class="nv"&gt;pot&lt;/span&gt; &lt;span class="nv"&gt;handle&lt;/span&gt;
-&lt;span class="k"&gt;wait&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="nv"&gt;minutes&lt;/span&gt;
-&lt;span class="k"&gt;goto&lt;/span&gt; &lt;span class="nl"&gt;first&lt;/span&gt; &lt;span class="nv"&gt;step&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;or&lt;/span&gt; &lt;span class="nv"&gt;shut&lt;/span&gt; &lt;span class="nv"&gt;off&lt;/span&gt; &lt;span class="nv"&gt;burner&lt;/span&gt; &lt;span class="nv"&gt;when&lt;/span&gt; &lt;span class="nv"&gt;done&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Do not bump wooden spoon or it will&amp;nbsp;fall.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3&amp;nbsp;above).&lt;/p&gt;
 &lt;p&gt;Here&amp;#8217;s a link to &lt;a href="http://foo.bar"&gt;a website&lt;/a&gt;, to a &lt;a href="local-doc.html"&gt;local
 doc&lt;/a&gt;, and to a &lt;a href="#an-h2-header"&gt;section heading in the current
 doc&lt;/a&gt;. Here&amp;#8217;s a footnote &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;

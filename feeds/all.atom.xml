@@ -8,7 +8,7 @@ look&amp;nbsp;like:&lt;/p&gt;
 &lt;li&gt;the other&amp;nbsp;one&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Note that &amp;#8212; not considering the asterisk &amp;#8212; the actual text
-content starts at 4-columns&amp;nbsp;in.&lt;/p&gt;
+&amp;#8220;content&amp;#8221; starts at 4-columns&amp;nbsp;in.&lt;/p&gt;
 &lt;p&gt;Now a nested&amp;nbsp;list:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -48,7 +48,7 @@ if you&amp;nbsp;like.&lt;/p&gt;
 &lt;p&gt;Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &amp;#8220;it&amp;#8217;s all
 in chapters 12&amp;#8211;14&amp;#8221;). Three dots &amp;#8230; will be converted to an ellipsis.
 Unicode is supported.&amp;nbsp;☺&lt;/p&gt;
-&lt;h2&gt;An h2&amp;nbsp;header&lt;/h2&gt;
+&lt;h2 id="an-h2-header"&gt;An h2 header&lt;a class="headerlink" href="#an-h2-header" title="Permanent link"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Here&amp;#8217;s a numbered&amp;nbsp;list:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;first&amp;nbsp;item&lt;/li&gt;
@@ -78,7 +78,7 @@ delimited block for syntax&amp;nbsp;highlighting:&lt;/p&gt;
     &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;An h3&amp;nbsp;header&lt;/h3&gt;
+&lt;h3 id="an-h3-header"&gt;An h3 header&lt;a class="headerlink" href="#an-h3-header" title="Permanent link"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Here&amp;#8217;s a link to &lt;a href="http://foo.bar"&gt;a website&lt;/a&gt;, to a &lt;a href="local-doc.html"&gt;local
 doc&lt;/a&gt;, and to a &lt;a href="#an-h2-header"&gt;section heading in the current
 doc&lt;/a&gt;. Here&amp;#8217;s a footnote &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -86,11 +86,11 @@ doc&lt;/a&gt;. Here&amp;#8217;s a footnote &lt;sup id="fnref:1"&gt;&lt;a class="
 &lt;hr&gt;
 &lt;p&gt;And images can be specified like&amp;nbsp;so:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="duck image" src="https://i.redd.it/ly76bvst0fq81.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Inline math equation: \(\omega = d\phi / dt\). Display
+&lt;p&gt;Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like&amp;nbsp;so:&lt;/p&gt;
 &lt;p&gt;$$I = \int \rho R^{2}&amp;nbsp;dV$$&lt;/p&gt;
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: `foo`, *bar*,&amp;nbsp;etc.&lt;/p&gt;
+which you wish to be displayed literally, ex.: &lt;code&gt;\`foo\`&lt;/code&gt; &amp;rarr; `foo`, &lt;code&gt;\*bar\*&lt;/code&gt; &amp;rarr; *bar*,&amp;nbsp;etc.&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;

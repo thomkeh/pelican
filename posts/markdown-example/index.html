@@ -23,7 +23,7 @@
         crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
         integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
-        crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+        crossorigin="anonymous" onload="renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false},{left:'\\[',right:'\\]',display:true}]});"></script>
 </head>
 
 <body>
@@ -68,7 +68,7 @@ look&nbsp;like:</p>
 <li>the other&nbsp;one</li>
 </ul>
 <p>Note that &#8212; not considering the asterisk &#8212; the actual text
-content starts at 4-columns&nbsp;in.</p>
+&#8220;content&#8221; starts at 4-columns&nbsp;in.</p>
 <p>Now a nested&nbsp;list:</p>
 <ol>
 <li>
@@ -108,7 +108,7 @@ if you&nbsp;like.</p>
 <p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &#8220;it&#8217;s all
 in chapters 12&#8211;14&#8221;). Three dots &#8230; will be converted to an ellipsis.
 Unicode is supported.&nbsp;☺</p>
-<h2>An h2&nbsp;header</h2>
+<h2 id="an-h2-header">An h2 header<a class="headerlink" href="#an-h2-header" title="Permanent link">#</a></h2>
 <p>Here&#8217;s a numbered&nbsp;list:</p>
 <ol>
 <li>first&nbsp;item</li>
@@ -138,7 +138,7 @@ delimited block for syntax&nbsp;highlighting:</p>
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 </code></pre></div>
 
-<h3>An h3&nbsp;header</h3>
+<h3 id="an-h3-header">An h3 header<a class="headerlink" href="#an-h3-header" title="Permanent link">#</a></h3>
 <p>Here&#8217;s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
 doc</a>, and to a <a href="#an-h2-header">section heading in the current
 doc</a>. Here&#8217;s a footnote <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
@@ -146,11 +146,11 @@ doc</a>. Here&#8217;s a footnote <sup id="fnref:1"><a class="footnote-ref" href=
 <hr>
 <p>And images can be specified like&nbsp;so:</p>
 <p><img alt="duck image" src="https://i.redd.it/ly76bvst0fq81.jpg"></p>
-<p>Inline math equation: \(\omega = d\phi / dt\). Display
+<p>Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like&nbsp;so:</p>
 <p>$$I = \int \rho R^{2}&nbsp;dV$$</p>
 <p>And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: `foo`, *bar*,&nbsp;etc.</p>
+which you wish to be displayed literally, ex.: <code>\`foo\`</code> &rarr; `foo`, <code>\*bar\*</code> &rarr; *bar*,&nbsp;etc.</p>
 <div class="footnote">
 <hr>
 <ol>

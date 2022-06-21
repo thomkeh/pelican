@@ -48,7 +48,7 @@ if you&amp;nbsp;like.&lt;/p&gt;
 &lt;p&gt;Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &amp;#8220;it&amp;#8217;s all
 in chapters 12&amp;#8211;14&amp;#8221;). Three dots &amp;#8230; will be converted to an ellipsis.
 Unicode is supported.&amp;nbsp;☺&lt;/p&gt;
-&lt;h2 id="an-h2-header"&gt;An h2 header&lt;a class="headerlink" href="#an-h2-header" title="Permanent link"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="a-heading"&gt;A heading&lt;a class="headerlink" href="#a-heading" title="Permanent link"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Here&amp;#8217;s a numbered&amp;nbsp;list:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;first&amp;nbsp;item&lt;/li&gt;
@@ -78,9 +78,9 @@ delimited block for syntax&amp;nbsp;highlighting:&lt;/p&gt;
     &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id="an-h3-header"&gt;An h3 header&lt;a class="headerlink" href="#an-h3-header" title="Permanent link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="another-heading"&gt;Another heading&lt;a class="headerlink" href="#another-heading" title="Permanent link"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Here&amp;#8217;s a link to &lt;a href="http://foo.bar"&gt;a website&lt;/a&gt;, to a &lt;a href="local-doc.html"&gt;local
-doc&lt;/a&gt;, and to a &lt;a href="#an-h2-header"&gt;section heading in the current
+doc&lt;/a&gt;, and to a &lt;a href="#a-heading"&gt;section heading in the current
 doc&lt;/a&gt;. Here&amp;#8217;s a footnote &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;A horizontal rule&amp;nbsp;follows.&lt;/p&gt;
 &lt;hr&gt;

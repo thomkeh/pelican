@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Minimal blog</title><link href="https://thomkeh.github.io/pelican/" rel="alternate"></link><link href="https://thomkeh.github.io/pelican/feeds/all.atom.xml" rel="self"></link><id>https://thomkeh.github.io/pelican/</id><updated>2022-04-28T17:13:00+02:00</updated><entry><title>Markdown example</title><link href="https://thomkeh.github.io/pelican/posts/markdown-example/" rel="alternate"></link><published>2022-04-28T17:13:00+02:00</published><updated>2022-04-28T17:13:00+02:00</updated><author><name>Lemony Snicket</name></author><id>tag:thomkeh.github.io,2022-04-28:/pelican/posts/markdown-example/</id><summary type="html">&lt;p&gt;Paragraphs are separated by a blank&amp;nbsp;line.&lt;/p&gt;
-&lt;p&gt;2nd paragraph. &lt;em&gt;Italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, and &lt;code&gt;monospace&lt;/code&gt;. Itemized lists
-look&amp;nbsp;like:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this&amp;nbsp;one&lt;/li&gt;
-&lt;li&gt;that&amp;nbsp;one&lt;/li&gt;
-&lt;li&gt;the other&amp;nbsp;one&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Note that &amp;#8212; not considering the asterisk &amp;#8212; the actual text
-content starts at 4-columns&amp;nbsp;in.&lt;/p&gt;
-&lt;p&gt;Now a nested&amp;nbsp;list:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;First, get these&amp;nbsp;ingredients:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;carrots&lt;/li&gt;
-&lt;li&gt;celery&lt;/li&gt;
-&lt;li&gt;lentils&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Boil …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Paragraphs are separated by a blank&amp;nbsp;line.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Minimal blog</title><link href="https://thomkeh.github.io/pelican/" rel="alternate"></link><link href="https://thomkeh.github.io/pelican/feeds/all.atom.xml" rel="self"></link><id>https://thomkeh.github.io/pelican/</id><updated>2022-04-28T17:13:00+02:00</updated><entry><title>Markdown example</title><link href="https://thomkeh.github.io/pelican/posts/markdown-example/" rel="alternate"></link><published>2022-04-28T17:13:00+02:00</published><updated>2022-04-28T17:13:00+02:00</updated><author><name>Lemony Snicket</name></author><id>tag:thomkeh.github.io,2022-04-28:/pelican/posts/markdown-example/</id><summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est&amp;nbsp;laborum.&lt;/p&gt;
 &lt;p&gt;2nd paragraph. &lt;em&gt;Italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, and &lt;code&gt;monospace&lt;/code&gt;. Itemized lists
 look&amp;nbsp;like:&lt;/p&gt;
 &lt;ul&gt;
